@@ -1,6 +1,6 @@
-baseURL = 'http://xicheng5713.github.io/'
-#relativeURLS = true
-#uglyURLs = true
+#baseURL = 'http://xicheng5713.github.io/'
+relativeURLS = true
+uglyURLs = true
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-book'
