@@ -1,4 +1,4 @@
-name: deploy
+name: Github pages
 
 on:
     push:
@@ -17,7 +17,8 @@ jobs:
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v2
               with:
-                  hugo-version: "latest"
+                hugo-version: "0.120.4"
+                extended: true
 
             - name: Build Web
               run: hugo
@@ -25,8 +26,7 @@ jobs:
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
               with:
-                  PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-                  EXTERNAL_REPOSITORY: xicheng5713/hugoDemo
-                  PUBLISH_BRANCH: publish
-                  PUBLISH_DIR: ./public
-                  commit_message: ${{ github.event.head_commit.message }}
+                personal_token: ${{ secrets.HUGO_TOKEN }}
+                publish_branch: publish
+                publish_dir: ./public
+                commit_message: ${{ github.event.head_commit.message }}
