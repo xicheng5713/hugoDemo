@@ -34,7 +34,7 @@ jobs:
             - name: Deploy Web
               uses: peaceiris/actions-gh-pages@v3
               with:
-                # personal_token: ${{ secrets.HUGO_TOKEN }}
+                personal_token: ${{ secrets.HUGO_TOKEN }}
                 publish_branch: publish
                 publish_dir: ./public
                 commit_message: ${{ github.event.head_commit.message }}
