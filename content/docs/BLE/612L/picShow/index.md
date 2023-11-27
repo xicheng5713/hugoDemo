@@ -1,0 +1,4 @@
+---
+title: 'picShow'
+---
+![](sample.png)

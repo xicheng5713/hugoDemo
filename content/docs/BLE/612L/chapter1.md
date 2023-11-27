@@ -35,8 +35,7 @@ content_2_1
 {{< /tabs >}}
 
 /n 
-![](/images/sample.png)
-
+![](images/sample.png)
 /n 
 
 /n 
@@ -44,41 +43,6 @@ content_2_1
 /n 
 
 find content 
-
-/n 
-
-/n 
-
-/n 
-
-/n 
-
-/n 
-
-/n 
-
-/n 
-
-/n 
-
-/n 
-
-/n 
-
-/n 
-
-/n 
-
-/n 
-
-/n 
-
-
-/n 
-
-/n 
-
-/n 
 
 ## title_2_2
 

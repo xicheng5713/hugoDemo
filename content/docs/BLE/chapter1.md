@@ -35,8 +35,7 @@ content_2_1
 {{< /tabs >}}
 
 /n 
-![](/images/sample.png)
-
+![](https://raw.githubusercontent.com/xicheng5713/hugoDemo/main/static/images/20231127134607.png)
 /n 
 
 /n 
